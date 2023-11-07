@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: blue;
+  color: #fff;
+}
+
+.logo img {
+  max-width: 80px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  float: right;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: cadetblue;
+  background-color: wheat;
+}
+
+nav .img-nav {
+  float: left;
+}
+
+h1 {
+  color: red;
+}
